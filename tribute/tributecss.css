@@ -1,0 +1,71 @@
+/* this selector * applies to whole of the website */
+/* *{
+    
+/* isme kuch bhi likh do global ho jayega */
+/* } */ 
+*{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.107);
+}
+header{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+h1{
+    text-align: center; 
+    /* ye alignment jo hota hai wo parent tag ke respect mai hota hai not with complete document */
+    text-decoration: black double underline;
+    /* jitne bhi anchor tag hote hai unme by default underline aati hai to unme ye tag use karke
+    property none pe set karke underline hata sakte hai */
+    line-height: 20px;
+    
+   
+}
+#namebox{
+ 
+   color: gold;
+   text-align: center;
+   width: 500px;
+   margin: auto;
+ 
+}
+h2{
+    background-color: rgba(0, 0, 0, 0.769);
+    padding: 20px;
+    margin:auto;
+    border-width: 15px;
+    border-radius: 100%;
+    border-color: rgb(0, 0, 0);
+}
+
+h3{
+ text-align: center; 
+}
+#image1{
+    height: 400px;
+    width:700px;
+
+}
+#image2{
+    height: 400px;
+    width:700px;
+    border-radius: 5%;
+ 
+}
+#points{
+    margin: auto;
+    max-width: 900px;
+    font-size: medium;
+}
+ul{
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    padding-left: 20px;
+}
